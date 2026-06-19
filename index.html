@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mario Prignano</title>
+  <link rel="stylesheet" href="style-ominous2.css">
+</head>
+<body>
+  <div class="site-wrapper">
+
+    <header class="site-header">
+      <a class="site-logo" href="/">
+        <span class="prompt">~$</span> mario.prignano<span class="cursor"></span>
+      </a>
+      <nav style="display:flex;align-items:center;gap:0.5rem;">
+        <ul class="site-nav">
+          <li><a href="/">home</a></li>
+          <li><a href="#posts">writing</a></li>
+          <li><a href="https://github.com/Mariopaerle" target="_blank" rel="noopener">github</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">☀︎</button>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-label">about</div>
+      <h1>Mario Prignano</h1>
+      <p class="hero-bio">
+        I am Mario Prignano aka Paerle.<br>
+        Math and AI student at La Sapienza, Rome.<br>
+        I love Music and I love learning.
+      </p>
+      <div class="hero-tags">
+        <span class="tag">mathematics</span>
+        <span class="tag">artificial intelligence</span>
+        <span class="tag">music</span>
+        <span class="tag">rome</span>
+        <span class="tag">open source</span>
+      </div>
+    </section>
+
+    <hr class="ruled">
+
+    <main id="posts">
+      <div class="section-title">writing</div>
+      <p style="font-size:0.82rem; color:var(--text-dim); padding: 1.5rem 0 3rem; font-weight:300;">
+        Nothing here yet.
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <span>Mario Prignano aka Paerle — Rome</span>
+      <span>
+        <a href="mailto:mario.prignano@paradigma.inc">mail</a> ·
+        <a href="https://github.com/Mariopaerle" target="_blank" rel="noopener">github</a>
+      </span>
+    </footer>
+
+  </div>
+
+  <script>
+    const toggle = document.getElementById('themeToggle');
+    const root   = document.documentElement;
+    let busy = false;
+
+    const saved = localStorage.getItem('theme');
+    if (saved === 'dark') { root.setAttribute('data-theme', 'dark'); toggle.textContent = '☾'; }
+
+    function blockReveal() {
+      if (busy) return;
+      busy = true;
+
+      const COLS = 14, ROWS = 9;
+      const isDark = root.getAttribute('data-theme') === 'dark';
+      const oldColor = isDark ? '#0c0c0c' : '#ede5d8';
+
+      // 1. Swap theme immediately
+      if (isDark) {
+        root.removeAttribute('data-theme');
+        toggle.textContent = '☀︎';
+        localStorage.setItem('theme', 'light');
+      } else {
+        root.setAttribute('data-theme', 'dark');
+        toggle.textContent = '☾';
+        localStorage.setItem('theme', 'dark');
+      }
+
+      // 2. Build overlay — plain solid squares
+      const overlay = document.createElement('div');
+      overlay.style.cssText = `
+        position: fixed; inset: 0; z-index: 99998; pointer-events: all;
+        display: grid;
+        grid-template-columns: repeat(${COLS}, 1fr);
+        grid-template-rows: repeat(${ROWS}, 1fr);
+      `;
+
+      for (let r = 0; r < ROWS; r++) {
+        for (let c = 0; c < COLS; c++) {
+          const b = document.createElement('div');
+          const diagPos = (c / (COLS - 1)) * 0.6 + (r / (ROWS - 1)) * 0.4;
+          const delay   = diagPos * 360 + Math.random() * 30;
+          b.style.cssText = `
+            background: ${oldColor};
+            transition:
+              transform 0.24s cubic-bezier(0.55, 0, 1, 0.45) ${delay}ms,
+              opacity   0.21s ease-in                         ${delay}ms;
+          `;
+          overlay.appendChild(b);
+        }
+      }
+
+      document.body.appendChild(overlay);
+
+      // 3. Dissolve — tiles scale out revealing new theme underneath
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        Array.from(overlay.children).forEach(b => {
+          b.style.transform = 'scale(0)';
+          b.style.opacity   = '0';
+        });
+      }));
+
+      // 4. Cleanup
+      setTimeout(() => { overlay.remove(); busy = false; }, 712);
+    }
+
+    toggle.addEventListener('click', blockReveal);
+  </script>
+</body>
+</html>
