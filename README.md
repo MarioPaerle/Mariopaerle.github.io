@@ -131,3 +131,7 @@ remaining private demos.
 The acoustic demo uses Sor Op. 35 No. 22, sequenced by Ray Izumi (Copyright 1996), from Guitarist.com. It preserves the sequence’s expressive tempo map and velocity; it is not a captured live performance and remains private pending publication permission. Crunch Electric Guitar uses the opening arpeggio of Guitar-TECHS P3 take 03 (0–8.24 seconds), a real performance captured using a Fishman TriplePlay MIDI pickup. The demo preserves recorded note timing, velocity and duration; reverb, tape, echo and added drive are disabled. There is no double tracking or post EQ. No library preset is modified. Trailer Percussion uses a twelve-bar 124 BPM phrase, separately balanced low drums, toms, ticks and sparse impacts, with fills at phrase boundaries.
 
 The Nylon demo starts 80 ms before its first MIDI note instead of retaining the source’s 5.29-second count-in. Guitar-TECHS credits and source hashes are in `assets/libero/audio/crunch-guitar-source.json`; the rendered adaptation is CC BY 4.0.
+
+## Analytics
+
+GoatCounter at `paerle.goatcounter.com` counts page views. `assets/analytics.js` counts clicks on the four public Drive folders and the first successful playback of each audio example per page load. Event names contain no email addresses or URL query strings. Custom events are disabled on localhost, and an unavailable analytics script does not interrupt navigation or playback. There is no visible counter or widget.
