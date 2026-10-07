@@ -128,9 +128,9 @@ remaining private demos.
 
 
 
-The acoustic demo uses Sor Op. 35 No. 22, sequenced by Ray Izumi (Copyright 1996), from Guitarist.com. It preserves the sequence’s expressive tempo map and velocity; it is not a captured live performance and remains private pending publication permission. Crunch Electric Guitar uses the opening arpeggio of Guitar-TECHS P3 take 03 (0–8.24 seconds), a real performance captured using a Fishman TriplePlay MIDI pickup. The demo preserves recorded note timing, velocity and duration; reverb, tape, echo and added drive are disabled. There is no double tracking or post EQ. No library preset is modified. Trailer Percussion uses a twelve-bar 124 BPM phrase, separately balanced low drums, toms, ticks and sparse impacts, with fills at phrase boundaries.
+The acoustic demo uses Sor Op. 35 No. 22, sequenced by Ray Izumi (Copyright 1996), from Guitarist.com. It preserves the sequence’s expressive tempo map and velocity; it is not a captured live performance and remains private pending publication permission. Crunch Electric Guitar plays GuitarSet’s `05_Rock1-90-C#_solo` blues improvisation. Timing and duration follow the per-string performance annotations; pitches are rounded to MIDI notes and sub-60 ms detections are omitted. Velocities are estimated from the microphone recording’s onset RMS and mapped to 54–90. Same-pitch releases end before the next attack. Reverb, tape, echo and added drive are disabled; the library preset is unchanged. Trailer Percussion uses a twelve-bar 124 BPM phrase, separately balanced low drums, toms, ticks and sparse impacts, with fills at phrase boundaries.
 
-The Nylon demo starts 80 ms before its first MIDI note instead of retaining the source’s 5.29-second count-in. Guitar-TECHS credits and source hashes are in `assets/libero/audio/crunch-guitar-source.json`; the rendered adaptation is CC BY 4.0.
+The Nylon demo starts 80 ms before its first MIDI note instead of retaining the source’s 5.29-second count-in. GuitarSet credits and source hashes are in `assets/libero/audio/crunch-guitar-source.json`; the rendered adaptation is CC BY 4.0.
 
 ## Analytics
 
