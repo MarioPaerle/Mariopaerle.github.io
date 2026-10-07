@@ -201,3 +201,5 @@ h2 { margin: 0; font: 400 36px/1.15 Arial, Helvetica, sans-serif; letter-spacing
 .interface-details { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin: 32px 0; padding: 18px 0; }
 .interface-details summary { cursor: pointer; font: 13px/1.5 Arial, sans-serif; color: var(--muted); }
 .interface-details[open] summary { margin-bottom: 28px; }
+
+.release-label { border: 1px solid currentColor; padding: 2px 7px; }
