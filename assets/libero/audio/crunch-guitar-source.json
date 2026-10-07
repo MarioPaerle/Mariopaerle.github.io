@@ -12,5 +12,5 @@
   "performance": "05_Rock1-90-C#_solo",
   "annotation_sha256": "4fc76efac22953733a85dacc6a2340b755e3965f8101e0c5e46b0cfc3b49cffb",
   "recording_sha256": "2e969753898c731a7e4e46935ff5f315d31acdaddf0a4ab9afa855a96307a9d8",
-  "changes": "Note timing from per-string annotations; pitches rounded to MIDI notes; sub-60ms notes omitted; velocities estimated from microphone RMS; same-pitch releases bounded before reattacks; rendered using Libero Crunch Guitar without added effects."
+  "changes": "Timing from GuitarSet per-string annotations; pitches rounded to MIDI; sub-60ms detections omitted; microphone RMS dynamics expanded to velocities 40\u2013114; short phrase sections use Libero palm-mute keyswitches, other sections use open notes; same-pitch releases bounded before reattacks; 14% short chapel reverb. The library preset is unchanged."
 }
