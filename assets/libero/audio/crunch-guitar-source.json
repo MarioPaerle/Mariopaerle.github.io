@@ -1,0 +1,38 @@
+{
+  "dataset": "Guitar-TECHS",
+  "url": "https://zenodo.org/records/14963133",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Pedroza Villalobos, Hegel Emmanuel",
+      "affiliation": "Universidad Nacional Aut\u00f3noma de M\u00e9xico",
+      "orcid": "0009-0006-4249-4696"
+    },
+    {
+      "name": "Taheri, Termeh",
+      "affiliation": "Queen Mary University of London"
+    },
+    {
+      "name": "Abreu, Wallace",
+      "affiliation": "Universidade Federal do Rio de Janeiro",
+      "orcid": "0009-0008-4047-8312"
+    },
+    {
+      "name": "Corey, Ryan",
+      "affiliation": "University of Illinois Chicago",
+      "orcid": "0000-0002-3122-124X"
+    },
+    {
+      "name": "Roman, Iran R.",
+      "affiliation": "Queen Mary University of London",
+      "orcid": "0000-0003-3781-7244"
+    }
+  ],
+  "file": "P3_music/midi/midi_03.mid",
+  "midi_sha256": "048f1a40e3c3d31b742c9ccccc7c05f6c73ceb87457f98d6837998451bbd568f",
+  "changes": "Opening arpeggio excerpt rendered with Libero Crunch Electric Guitar. 80 ms lead-in; performed timing and velocity retained. No added audio effects.",
+  "excerpt_seconds": [
+    0,
+    8.24
+  ]
+}

@@ -1,0 +1,14 @@
+Copy this template into _posts/YYYY-MM-DD-your-title.md.
+Replace the title, description, date, language and text. Dates in the future
+and posts with published: false are not shown by the normal build.
+
+---
+title: "Your title"
+description: "A short description, if useful."
+date: YYYY-MM-DD
+lang: en
+tags: []
+published: false
+---
+
+Write the article here using Markdown.

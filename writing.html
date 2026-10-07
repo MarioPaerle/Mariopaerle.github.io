@@ -1,0 +1,29 @@
+---
+layout: default
+title: Blog
+section: writing
+permalink: /writing/
+description: Notes and articles by Mario Prignano.
+---
+<header class="section-page-header">
+  <p class="eyebrow">Blog</p>
+  <h1>Notes & articles.</h1>
+</header>
+<section aria-label="Published articles" class="writing-list">
+  {% if site.posts.size > 0 %}
+    {% for post in site.posts %}
+    <article class="post-row">
+      <a class="post-entry" href="{{ post.url | relative_url }}">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d %b %Y' }}</time>
+        <div>
+          <h2>{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
+          {% if post.description %}<p>{{ post.description | escape }}</p>{% endif %}
+        </div>
+        <span class="read-link" aria-hidden="true">Read post ↗</span>
+      </a>
+    </article>
+    {% endfor %}
+  {% else %}
+    <p class="empty-state">No articles published yet.</p>
+  {% endif %}
+</section>

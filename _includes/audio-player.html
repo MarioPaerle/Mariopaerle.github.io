@@ -1,0 +1,14 @@
+<figure class="audio-player" data-name="{{ include.name | escape }}" data-duration="{{ include.duration }}">
+  <figcaption class="audio-caption"><span>{{ include.name | escape }}</span><span>{{ include.bank | escape }}</span></figcaption>
+  <audio controls preload="metadata" src="{{ include.src | relative_url }}?v={{ site.time | date: "%s" }}" aria-label="{{ include.name | escape }} audio example"></audio>
+  <div class="audio-controls" hidden>
+    <button class="audio-toggle" type="button" aria-label="Play {{ include.name | escape }}"><span aria-hidden="true">▶</span></button>
+    <div class="audio-waveform" style="--waveform: url('{{ include.waveform | relative_url }}?v={{ site.time | date: "%s" }}')">
+      <div class="waveform-ink" aria-hidden="true"></div>
+      <input class="audio-seek" type="range" min="0" max="{{ include.duration }}" value="0" step="0.01" aria-label="Seek in {{ include.name | escape }}">
+    </div>
+    <span class="audio-time"><span class="audio-current">0:00</span> / <span class="audio-duration">0:00</span></span>
+    <button class="audio-mute" type="button" aria-label="Mute {{ include.name | escape }}">Sound on</button>
+  </div>
+  <p class="audio-status" role="status" hidden></p>
+</figure>

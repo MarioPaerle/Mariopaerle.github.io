@@ -1,0 +1,7 @@
+<header class="site-header">
+  <a class="site-name" href="{{ '/' | relative_url }}">Paerle</a>
+  <nav aria-label="Main navigation">
+    <a href="{{ '/writing/' | relative_url }}"{% if page.section == 'writing' %} aria-current="page"{% endif %}>Blog</a>
+  </nav>
+  <button class="theme-toggle" type="button" aria-label="Switch to light theme">Light</button>
+</header>
