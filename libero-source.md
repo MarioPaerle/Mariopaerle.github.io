@@ -11,7 +11,7 @@ These archives contain the corresponding source for released Libero builds, incl
 - [macOS source](/downloads/libero-source/Libero-0.1.0-rc12-macOS-source.tar.gz)
 - [Windows source](/downloads/libero-source/Libero-0.1.0-rc12-Windows-source.tar.gz)
 
-[Plugin downloads on Drive](https://drive.google.com/drive/folders/1o06ajqFQ5Xg6Qt3SHa7nXkVN21D4fS2B) · [SHA256 checksums](/downloads/libero-source/SHA256SUMS)
+[Plugin downloads on Drive](https://drive.google.com/drive/folders/1o06ajqFQ5Xg6Qt3SHa7nXkVN21D4fS2B) · [Source checksums](/downloads/libero-source/SHA256SUMS) · [Plugin checksums](/downloads/libero-source/PLUGIN-SHA256SUMS)
 
 ## Earlier releases
 
