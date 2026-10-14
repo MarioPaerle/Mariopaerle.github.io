@@ -263,6 +263,45 @@
         "Trap Kit \u00b7 Libero",
         "Trap Kit Pro \u00b7 Libero"
       ]
+    },
+    {
+      "id": "pink",
+      "title": "Pink",
+      "version": "1.1.0",
+      "sounds": 27,
+      "bytes": 2353816413,
+      "uncompressed_bytes": 2390102235,
+      "sha256": "fb71e5f4b0b1a0e1ecfcd826b33a08b09f3ac1b0584a2a5ea63f13a29db1ac3f",
+      "url": "https://drive.usercontent.google.com/download?id=120VyMWLlczserSgUyoiKKPRjdb928IQD&export=download&confirm=t",
+      "instruments": [
+        "Clean Studio Kit",
+        "Ergo Electric Upright Bass",
+        "Archtop Lantern",
+        "Black Club Clean",
+        "Black Club Muted",
+        "Bridge Stars",
+        "Flatwound Horizon",
+        "Glass Arpeggio \u00b7 Tone Variant",
+        "Green Anniversary",
+        "Green Hammer",
+        "Horizon Lead \u00b7 Tone Variant",
+        "Mini Colour Lead",
+        "Tabbed Combo \u00b7 Compact Model",
+        "Tonewheel Breathing Room",
+        "Tonewheel Percussive Bridge",
+        "Mini Lyric Lead",
+        "Tine Air \u00b7 Recorded Mark II",
+        "Solina-inspired String Ensemble",
+        "Sonar Piano",
+        "Patch Pulse",
+        "Putney Air",
+        "Reed Air \u00b7 Recorded EP200",
+        "Darkblack Fingerstyle Bass",
+        "Babyblue Pick Bass",
+        "Studio Room Kit",
+        "Fifths-Tuned Clean Bass",
+        "Steel Bar Phrases"
+      ]
     }
   ],
   "release": {
