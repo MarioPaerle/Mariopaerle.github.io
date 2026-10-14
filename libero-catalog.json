@@ -1,0 +1,287 @@
+{
+  "format": "libero.pack-catalog/1",
+  "packs": [
+    {
+      "id": "archi",
+      "title": "Strings",
+      "version": "0.1.6",
+      "sounds": 6,
+      "bytes": 568673586,
+      "uncompressed_bytes": 574566583,
+      "sha256": "a771bdbb2b53d62822cda4b38ffafc11d9ef6a1ddefa2efd99f8e7acb11867b8",
+      "url": "https://drive.usercontent.google.com/download?id=1lfFoVOJMoz1fKJtpRFmd56GESwoSzIVe&export=download&confirm=t",
+      "instruments": [
+        "Cello Harmonics II",
+        "Extended Strings II",
+        "Violas",
+        "Violins",
+        "Solo Violin",
+        "Solo Cello II"
+      ]
+    },
+    {
+      "id": "aria",
+      "title": "Aria",
+      "version": "0.1.6",
+      "sounds": 16,
+      "bytes": 306169847,
+      "uncompressed_bytes": 307051089,
+      "sha256": "4a0448d2c53fc2fe385a75655f29d8606e94286fd285cc034cd2b6a58c391a7a",
+      "url": "https://drive.usercontent.google.com/download?id=1Js96GcfKJf6BwzMup3LazWl_Nm9SYTA8&export=download&confirm=t",
+      "instruments": [
+        "Worn Harmonica",
+        "Folk Harp",
+        "Unusual Music Box",
+        "Moonlit Dan Tranh",
+        "Baroque Recorder",
+        "Deep Gong",
+        "Hand chimes d\u2019aria",
+        "Gilded Mandolin \u00b7 Celtic Oval",
+        "Root Marimba",
+        "Breath Oboe",
+        "Earth Ocarina",
+        "Toy Piano",
+        "Living Psaltery",
+        "Resonant Tubular Bells",
+        "Warm Vibraphone",
+        "Living Xylophone"
+      ]
+    },
+    {
+      "id": "bassi",
+      "title": "Bass",
+      "version": "0.1.6",
+      "sounds": 9,
+      "bytes": 536328990,
+      "uncompressed_bytes": 571195642,
+      "sha256": "fab5aefd80a94ed0b53d6c57c87f9e90ef1a06b59d429567d6649030767d89b9",
+      "url": "https://drive.usercontent.google.com/download?id=1uB2yastO-tOJgEOJ7aXpOzanCQdM-5vg&export=download&confirm=t",
+      "instruments": [
+        "Hollow 808 II",
+        "Strike 808 II",
+        "Night 808 II",
+        "Flatwound Bass",
+        "Hollowbody Bass",
+        "Jazz Double Bass",
+        "Anchor Sub",
+        "Wooden Sub",
+        "Bouncing Sub"
+      ]
+    },
+    {
+      "id": "bebop",
+      "title": "Bebop",
+      "version": "0.1.6",
+      "sounds": 7,
+      "bytes": 1097371664,
+      "uncompressed_bytes": 1146689939,
+      "sha256": "06a0f1f1733123a11d938a65a8ccd9fd2f61a62cae1076f446b1e45ceaf20919",
+      "url": "https://drive.usercontent.google.com/download?id=1CddcnfZQ4MLowz5bR8AXoIYNP-N7RytA&export=download&confirm=t",
+      "instruments": [
+        "Midnight Archtop",
+        "Rubner Bebop Double Bass",
+        "French Horn",
+        "Steinway Bebop",
+        "Trombone",
+        "Trumpet",
+        "Tuba"
+      ]
+    },
+    {
+      "id": "blue",
+      "title": "Blue",
+      "version": "0.1.6",
+      "sounds": 9,
+      "bytes": 724436742,
+      "uncompressed_bytes": 868310644,
+      "sha256": "ecd07bb8ce978be4e7cf7d04f59ac3f94a2efd62151db74d1641784852e998ad",
+      "url": "https://drive.usercontent.google.com/download?id=1LTSgPNwZqvq_2e_iXkV27KBG1TEMrM7p&export=download&confirm=t",
+      "instruments": [
+        "Saxon Bellows",
+        "Cobalt Strings",
+        "Blue Bellows",
+        "Cedar Strings",
+        "Pianet T",
+        "Renaissance Positive Organ",
+        "Prime Zither",
+        "Unitra 83",
+        "Long Glass"
+      ]
+    },
+    {
+      "id": "blue-gpl",
+      "title": "Blue GPL",
+      "version": "0.1.6",
+      "sounds": 1,
+      "bytes": 448310835,
+      "uncompressed_bytes": 540199892,
+      "sha256": "3494d21f5c702e99d0b6a228617c70d03e2b2059b1e95bc697df098869c41876",
+      "url": "https://drive.usercontent.google.com/download?id=1zX21TwDTslmoAG202nNe_3Q4UME3pufE&export=download&confirm=t",
+      "instruments": [
+        "Five Strings"
+      ]
+    },
+    {
+      "id": "chitarre",
+      "title": "Guitars",
+      "version": "0.1.6",
+      "sounds": 4,
+      "bytes": 85337073,
+      "uncompressed_bytes": 85995734,
+      "sha256": "e8211ec5a97c5c26961694f73fac9843d108b2d374e8b09e779b0b2877d901cd",
+      "url": "https://drive.usercontent.google.com/download?id=1BI4SZQNSil67NnXWPA2wrJQkozNC6IWb&export=download&confirm=t",
+      "instruments": [
+        "Steel-String Acoustic Guitar",
+        "Classical Guitar \u00b7 Chords II",
+        "Classical Guitar \u00b7 Nylon",
+        "Crunch Electric Guitar"
+      ]
+    },
+    {
+      "id": "flauti",
+      "title": "Flauti",
+      "version": "0.1.6",
+      "sounds": 2,
+      "bytes": 52867469,
+      "uncompressed_bytes": 53161903,
+      "sha256": "862b50da4f4202355eb1d665c87e063126165e52138dd0c879c95f3aa559afb2",
+      "url": "https://drive.usercontent.google.com/download?id=1ie3JlrrJ9PUY0Kov-eCDIVNbBNbso82R&export=download&confirm=t",
+      "instruments": [
+        "Odysseus Aulos",
+        "Odysseus Aulos \u00b7 Bright"
+      ]
+    },
+    {
+      "id": "giove",
+      "title": "Giove",
+      "version": "0.1.6",
+      "sounds": 22,
+      "bytes": 85598746,
+      "uncompressed_bytes": 85899364,
+      "sha256": "779d5d5260c2eb6b0a25813e6b06cf581772c62b8324fddb47fc5dfb07f79573",
+      "url": "https://drive.usercontent.google.com/download?id=15ypSLOrbacBhxK4U6aMSmCG34qROmB-U&export=download&confirm=t",
+      "instruments": [
+        "Mercury \u00b7 Deep Orbit",
+        "Mercury \u00b7 Glass Current",
+        "Mixturtrautonium \u00b7 Fringes",
+        "Mixturtrautonium \u00b7 Open Fourth",
+        "Minimoog \u00b7 Brass Ladder",
+        "Minimoog \u00b7 Deep Ladder",
+        "Moog Modular \u00b7 Harmonic Reed",
+        "Taurus \u00b7 Pedal Foundation",
+        "Reed Tapes",
+        "String Tapes",
+        "Flute Tapes",
+        "Brass Tapes",
+        "Solar 42F \u00b7 Dual VCO Swell",
+        "Solar 42F \u00b7 Five Drone Voice",
+        "Solar 42F \u00b7 Polivoks Pair",
+        "Subsequent 37 \u00b7 Duo Saw",
+        "Subsequent 37 \u00b7 Feedback Organ",
+        "Subsequent 37 \u00b7 Pulse Contour",
+        "Theremin \u00b7 Ambra",
+        "Theremin \u00b7 Vetro",
+        "Trautonium \u00b7 Two Formants",
+        "Volkstrautonium \u00b7 Manual"
+      ]
+    },
+    {
+      "id": "mog",
+      "title": "Mog",
+      "version": "0.1.6",
+      "sounds": 5,
+      "bytes": 29423207,
+      "uncompressed_bytes": 29479787,
+      "sha256": "e7ceeabd29e297fb4e38c2ded5c8033ece0b85b44ef4d2c398db6dd42023aa61",
+      "url": "https://drive.usercontent.google.com/download?id=1VvfNHD7ng5soV-PmLAWiB2Y6JKl1Bm1j&export=download&confirm=t",
+      "instruments": [
+        "HiHat Open Phonk",
+        "HiHat Phonk",
+        "Baile Percussion",
+        "Baile Rimshot",
+        "Phonk Snare"
+      ]
+    },
+    {
+      "id": "ottoni",
+      "title": "Brass",
+      "version": "0.1.6",
+      "sounds": 1,
+      "bytes": 42818838,
+      "uncompressed_bytes": 43246509,
+      "sha256": "2bcc31b4c93ebba816dff7af7ec0014ca953dacb2b472c2b8b6f449816be9cea",
+      "url": "https://drive.usercontent.google.com/download?id=1ylJklHMQ778XywJzK4iowvw-P0PuapEC&export=download&confirm=t",
+      "instruments": [
+        "French Horn \u00b7 Air and Brass"
+      ]
+    },
+    {
+      "id": "percussioni",
+      "title": "Percussion",
+      "version": "0.1.6",
+      "sounds": 6,
+      "bytes": 389171306,
+      "uncompressed_bytes": 391359491,
+      "sha256": "423a8c59c4102807cd5aeac2bcf8be074d3faac5f096d0ef5f31df37cccc6e7d",
+      "url": "https://drive.usercontent.google.com/download?id=15hNEupWTlTRplvjOweOp9WhzJFd1gOPi&export=download&confirm=t",
+      "instruments": [
+        "Jazz Drums",
+        "Marble \u00b7 Marimba",
+        "Marble \u00b7 Xylophone",
+        "Hand Percussion \u00b7 Libero",
+        "Percussion \u00b7 Textures",
+        "Trailer Percussion"
+      ]
+    },
+    {
+      "id": "piano",
+      "title": "Piano",
+      "version": "0.1.6",
+      "sounds": 2,
+      "bytes": 689553535,
+      "uncompressed_bytes": 691232699,
+      "sha256": "ac0593c22694e60fb442cff2a37ee513ed2a9b9aefdebd96dbf809870f8d786a",
+      "url": "https://drive.usercontent.google.com/download?id=1BXU-ewTLkhnDlkHhhIosvMfKs2rmhX_I&export=download&confirm=t",
+      "instruments": [
+        "Felt Piano",
+        "Concert Grand Piano"
+      ]
+    },
+    {
+      "id": "trap",
+      "title": "Trap",
+      "version": "0.1.6",
+      "sounds": 5,
+      "bytes": 185828681,
+      "uncompressed_bytes": 186533474,
+      "sha256": "f8d92116a165312904c2092cfd035ef34e996876b2c5afae8666f034d4f64732",
+      "url": "https://drive.usercontent.google.com/download?id=1_r4XR_HIV1BflRWNCI2j7lEeQmg8R68J&export=download&confirm=t",
+      "instruments": [
+        "Trap Choir \u00b7 Libero",
+        "Trap Hit \u00b7 Libero",
+        "Italian Trap Kit \u00b7 Libero",
+        "Trap Kit \u00b7 Libero",
+        "Trap Kit Pro \u00b7 Libero"
+      ]
+    }
+  ],
+  "release": {
+    "build": 14,
+    "version": "0.1.0-rc14",
+    "notes": "Beta release. Close your DAW before installing an update.",
+    "packages": {
+      "macos": {
+        "url": "https://drive.usercontent.google.com/download?id=17sxA0GtJ8rlmZCkA4htEk6v1g37j37Rf&export=download&confirm=t",
+        "bytes": 25526368,
+        "uncompressed_bytes": 66228883,
+        "sha256": "6940df7240723cb67b721bb158ee4fda1c27b8400617d587a508e3f9b939d010"
+      },
+      "windows": {
+        "url": "https://drive.usercontent.google.com/download?id=1FbZhctItb7m2xrkjZYMbve0VtlMtiA0d&export=download&confirm=t",
+        "bytes": 5737374,
+        "uncompressed_bytes": 35000000,
+        "sha256": "402899545a3c3f0e1078dac4ce7cf555f5b09bc9256f250f9b075bb5c2171fad"
+      }
+    }
+  }
+}
