@@ -266,21 +266,20 @@
     }
   ],
   "release": {
-    "build": 14,
-    "version": "0.1.0-rc14",
-    "notes": "Beta release. Close your DAW before installing an update.",
+    "build": 16,
+    "version": "0.1.0-rc16",
     "packages": {
       "macos": {
-        "url": "https://drive.usercontent.google.com/download?id=17sxA0GtJ8rlmZCkA4htEk6v1g37j37Rf&export=download&confirm=t",
-        "bytes": 25526368,
-        "uncompressed_bytes": 66228883,
-        "sha256": "6940df7240723cb67b721bb158ee4fda1c27b8400617d587a508e3f9b939d010"
+        "bytes": 25814692,
+        "uncompressed_bytes": 66966686,
+        "sha256": "193f75677e63eb8d79c3a6281801bcb197510cab8a010e5aa106e3d45544f6c3",
+        "url": "https://drive.usercontent.google.com/download?id=1v7X3OpXQmk8gm8H9iOa2K8OGeTn6vFX4&export=download&confirm=t"
       },
       "windows": {
-        "url": "https://drive.usercontent.google.com/download?id=1FbZhctItb7m2xrkjZYMbve0VtlMtiA0d&export=download&confirm=t",
-        "bytes": 5737374,
-        "uncompressed_bytes": 35000000,
-        "sha256": "402899545a3c3f0e1078dac4ce7cf555f5b09bc9256f250f9b075bb5c2171fad"
+        "bytes": 5775706,
+        "uncompressed_bytes": 50000000,
+        "sha256": "a68d1a1acb51a0ec0e75ac2e95003f26062f0b77977eac14616e2b9711df17c2",
+        "url": "https://drive.usercontent.google.com/download?id=1Yfy24yf2EfK3DnUyMdu-DHSmXNSZbK-T&export=download&confirm=t"
       }
     }
   }
