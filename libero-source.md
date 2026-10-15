@@ -10,7 +10,7 @@ These archives contain the corresponding source for released Libero builds, incl
 
 - [macOS source](/downloads/libero-source/Libero-0.1.0-rc17-macOS-source.tar.gz)
 
-Windows rc17 is being verified; the Windows download remains rc16 until its replacement is ready.
+- [Windows source](/downloads/libero-source/Libero-0.1.0-rc17-Windows-source.tar.gz)
 
 ## 0.1.0-rc16
 

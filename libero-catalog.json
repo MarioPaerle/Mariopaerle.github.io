@@ -216,24 +216,6 @@
       ]
     },
     {
-      "id": "percussioni",
-      "title": "Percussion",
-      "version": "0.1.6",
-      "sounds": 6,
-      "bytes": 389171306,
-      "uncompressed_bytes": 391359491,
-      "sha256": "423a8c59c4102807cd5aeac2bcf8be074d3faac5f096d0ef5f31df37cccc6e7d",
-      "url": "https://drive.usercontent.google.com/download?id=15hNEupWTlTRplvjOweOp9WhzJFd1gOPi&export=download&confirm=t",
-      "instruments": [
-        "Jazz Drums",
-        "Marble \u00b7 Marimba",
-        "Marble \u00b7 Xylophone",
-        "Hand Percussion \u00b7 Libero",
-        "Percussion \u00b7 Textures",
-        "Trailer Percussion"
-      ]
-    },
-    {
       "id": "piano",
       "title": "Piano",
       "version": "0.1.6",
@@ -248,30 +230,13 @@
       ]
     },
     {
-      "id": "trap",
-      "title": "Trap",
-      "version": "0.1.6",
-      "sounds": 5,
-      "bytes": 185828681,
-      "uncompressed_bytes": 186533474,
-      "sha256": "f8d92116a165312904c2092cfd035ef34e996876b2c5afae8666f034d4f64732",
-      "url": "https://drive.usercontent.google.com/download?id=1_r4XR_HIV1BflRWNCI2j7lEeQmg8R68J&export=download&confirm=t",
-      "instruments": [
-        "Trap Choir \u00b7 Libero",
-        "Trap Hit \u00b7 Libero",
-        "Italian Trap Kit \u00b7 Libero",
-        "Trap Kit \u00b7 Libero",
-        "Trap Kit Pro \u00b7 Libero"
-      ]
-    },
-    {
       "id": "pink",
       "title": "Pink",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "sounds": 27,
-      "bytes": 2353816413,
-      "uncompressed_bytes": 2390102235,
-      "sha256": "fb71e5f4b0b1a0e1ecfcd826b33a08b09f3ac1b0584a2a5ea63f13a29db1ac3f",
+      "bytes": 2353819536,
+      "uncompressed_bytes": 2390102827,
+      "sha256": "ca07f34f517d0e47a13ef03cfa3d1776cd9b296199882fe86d5d3822261be356",
       "url": "https://drive.usercontent.google.com/download?id=120VyMWLlczserSgUyoiKKPRjdb928IQD&export=download&confirm=t",
       "instruments": [
         "Clean Studio Kit",
@@ -301,23 +266,88 @@
         "Studio Room Kit",
         "Fifths-Tuned Clean Bass",
         "Steel Bar Phrases"
+      ],
+      "deltas": [
+        {
+          "from_version": "1.1.0",
+          "bytes": 397967,
+          "uncompressed_bytes": 2390102827,
+          "changed_bytes": 364059,
+          "sha256": "0178164ae769955d19276dab91567faf5d0367a0277b027ce1a295d6dd29a845",
+          "url": "https://drive.usercontent.google.com/download?id=1g-jbUwtj47YAu48_UPttQnUIE4OHJS0V&export=download&confirm=t"
+        }
+      ]
+    },
+    {
+      "id": "percussioni",
+      "title": "Percussion",
+      "version": "0.1.7",
+      "sounds": 6,
+      "bytes": 389169689,
+      "uncompressed_bytes": 391359428,
+      "sha256": "4a922ef27242087d52a980841f8f0fff3eda632a20f371b716eacb0a35dc3472",
+      "url": "https://drive.usercontent.google.com/download?id=15hNEupWTlTRplvjOweOp9WhzJFd1gOPi&export=download&confirm=t",
+      "instruments": [
+        "Jazz Drums",
+        "Marble \u00b7 Marimba",
+        "Marble \u00b7 Xylophone",
+        "Hand Percussion \u00b7 Libero",
+        "Percussion \u00b7 Textures",
+        "Trailer Percussion"
+      ],
+      "deltas": [
+        {
+          "from_version": "0.1.6",
+          "bytes": 104284,
+          "uncompressed_bytes": 391359428,
+          "changed_bytes": 325725,
+          "sha256": "060622451b6400bc638bd5627de86502a1a73281871093b79b7bc28d6200b93b",
+          "url": "https://drive.usercontent.google.com/download?id=1iDLWXtR9VofNuHPWRPa8YGsRr91XJAcI&export=download&confirm=t"
+        }
+      ]
+    },
+    {
+      "id": "trap",
+      "title": "Trap",
+      "version": "0.1.7",
+      "sounds": 5,
+      "bytes": 185829028,
+      "uncompressed_bytes": 186534499,
+      "sha256": "180447adbc3eaadf4f9720be6390bd4e937f3ab05404b71d5d8f0de7dc87f3a7",
+      "url": "https://drive.usercontent.google.com/download?id=1_r4XR_HIV1BflRWNCI2j7lEeQmg8R68J&export=download&confirm=t",
+      "instruments": [
+        "Trap Choir \u00b7 Libero",
+        "Trap Hit \u00b7 Libero",
+        "Italian Trap Kit \u00b7 Libero",
+        "Trap Kit \u00b7 Libero",
+        "Trap Kit Pro \u00b7 Libero"
+      ],
+      "deltas": [
+        {
+          "from_version": "0.1.6",
+          "bytes": 51698,
+          "uncompressed_bytes": 186534499,
+          "changed_bytes": 127426,
+          "sha256": "b90a50e31ccd4c1a823513bd896151485074d710377fd98b124aa000a29fd41d",
+          "url": "https://drive.usercontent.google.com/download?id=11D3IiKuPJZQi23WrCI4VGTodC_Czazx1&export=download&confirm=t"
+        }
       ]
     }
   ],
   "release": {
-    "build": 16,
-    "version": "0.1.0-rc16",
+    "build": 17,
+    "version": "0.1.0-rc17",
     "packages": {
       "macos": {
-        "bytes": 25814692,
-        "uncompressed_bytes": 66966686,
-        "sha256": "193f75677e63eb8d79c3a6281801bcb197510cab8a010e5aa106e3d45544f6c3",
+        "bytes": 25892043,
+        "uncompressed_bytes": 67091550,
+        "sha256": "f56ba42902933bacb01941b1bc9cf0782f3a87fc191656c92c01ede05d044895",
         "url": "https://drive.usercontent.google.com/download?id=1v7X3OpXQmk8gm8H9iOa2K8OGeTn6vFX4&export=download&confirm=t"
       },
       "windows": {
-        "bytes": 5775706,
+        "bytes": 5784115,
         "uncompressed_bytes": 50000000,
-        "sha256": "a68d1a1acb51a0ec0e75ac2e95003f26062f0b77977eac14616e2b9711df17c2",
+        "sha256": "99b17b5f9e30e314aa71f07d51fa3885ea31c533f9623025822c1f1aab888bdd",
         "url": "https://drive.usercontent.google.com/download?id=1Yfy24yf2EfK3DnUyMdu-DHSmXNSZbK-T&export=download&confirm=t"
       }
     }
