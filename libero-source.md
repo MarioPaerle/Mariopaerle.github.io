@@ -6,7 +6,13 @@ permalink: /libero-source/
 
 These archives contain the corresponding source for released Libero builds, including the bundled JUCE source and licence notices. The software is licensed under GNU AGPLv3. You do not need these files to install or play Libero.
 
-## Current beta: 0.1.0-rc16
+## Current beta: 0.1.0-rc17
+
+- [macOS source](/downloads/libero-source/Libero-0.1.0-rc17-macOS-source.tar.gz)
+
+Windows rc17 is being verified; the Windows download remains rc16 until its replacement is ready.
+
+## 0.1.0-rc16
 
 - [macOS source](/downloads/libero-source/Libero-0.1.0-rc16-macOS-source.tar.gz)
 - [Windows source](/downloads/libero-source/Libero-0.1.0-rc16-Windows-source.tar.gz)
