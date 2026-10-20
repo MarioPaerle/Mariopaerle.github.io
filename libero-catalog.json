@@ -332,6 +332,48 @@
           "url": "https://drive.usercontent.google.com/download?id=11D3IiKuPJZQi23WrCI4VGTodC_Czazx1&export=download&confirm=t"
         }
       ]
+    },
+    {
+      "id": "uranio",
+      "title": "Uranio",
+      "version": "0.7.0",
+      "sounds": 30,
+      "bytes": 461353171,
+      "uncompressed_bytes": 463600766,
+      "sha256": "5fa6e7bca6fdc31874dffa19c3f09296b88470672aea12869369d61bd6cf7298",
+      "url": "https://drive.usercontent.google.com/download?id=18GoHrr5Yl1zkC9BKSSzoPfEbPoOOMtjY&export=download&confirm=t",
+      "instruments": [
+        "Ash Choir",
+        "Ash Lead",
+        "Ash Mass",
+        "Black Bow",
+        "Burial Voices",
+        "Burnt Wire",
+        "Cinder Choir",
+        "Coal Veil",
+        "Dead Relay",
+        "Fallout",
+        "Fallout Lead",
+        "Feral Halo",
+        "Friction Choir",
+        "Gravel Choir",
+        "Iron Bellows",
+        "Iron Reels",
+        "Low Pressure",
+        "Mourning Brass",
+        "Oxide Strings",
+        "Panic Reels",
+        "Piano Debris",
+        "Rivet",
+        "Rosewood Bite",
+        "Rosin Bass",
+        "Ruin Section",
+        "Shellac Orchestra",
+        "Steel Lead",
+        "Steel Swarm",
+        "Valve Riot",
+        "Vulture"
+      ]
     }
   ],
   "release": {
