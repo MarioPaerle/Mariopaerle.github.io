@@ -4,19 +4,31 @@
     {
       "id": "archi",
       "title": "Strings",
-      "version": "0.1.6",
-      "sounds": 6,
-      "bytes": 568673586,
-      "uncompressed_bytes": 574566583,
-      "sha256": "a771bdbb2b53d62822cda4b38ffafc11d9ef6a1ddefa2efd99f8e7acb11867b8",
-      "url": "https://drive.usercontent.google.com/download?id=1lfFoVOJMoz1fKJtpRFmd56GESwoSzIVe&export=download&confirm=t",
+      "version": "0.1.7",
+      "sounds": 8,
+      "bytes": 629726170,
+      "uncompressed_bytes": 636165731,
+      "sha256": "cb2571d2d43096394f46147aeebf060ab7545ae7ac02aead39452cd25597fc9b",
+      "url": "https://drive.usercontent.google.com/download?id=1YFIpE9it3bna1yN6RdIyUHv9gLWZPtl2&export=download&confirm=t",
       "instruments": [
         "Cello Harmonics II",
         "Extended Strings II",
+        "Rosin Choir",
+        "Splinter Strings",
         "Violas",
         "Violins",
         "Solo Violin",
         "Solo Cello II"
+      ],
+      "deltas": [
+        {
+          "from_version": "0.1.6",
+          "bytes": 61350263,
+          "uncompressed_bytes": 636165731,
+          "changed_bytes": 61599452,
+          "sha256": "bfc433d8d5557782dcb15163440c45a13aacecd7a2572dcefd47a4e55b8a6e11",
+          "url": "https://drive.usercontent.google.com/download?id=1Pf-KKINI8Z1iosSKTSefWi2XkGd5Ia6B&export=download&confirm=t"
+        }
       ]
     },
     {
