@@ -336,12 +336,12 @@
     {
       "id": "uranio",
       "title": "Uranio",
-      "version": "0.7.0",
-      "sounds": 30,
-      "bytes": 461353171,
-      "uncompressed_bytes": 463600766,
-      "sha256": "5fa6e7bca6fdc31874dffa19c3f09296b88470672aea12869369d61bd6cf7298",
-      "url": "https://drive.usercontent.google.com/download?id=18GoHrr5Yl1zkC9BKSSzoPfEbPoOOMtjY&export=download&confirm=t",
+      "version": "0.8.0",
+      "sounds": 34,
+      "bytes": 478857574,
+      "uncompressed_bytes": 481335822,
+      "sha256": "08ca3c460b3aa2367eaec7bc19d05ca2331aefc2b71b3d68c61e810c8733c1b6",
+      "url": "https://drive.usercontent.google.com/download?id=1rU55F3fxOjdgNvqsZbom1pWRqLe9p-se&export=download&confirm=t",
       "instruments": [
         "Ash Choir",
         "Ash Lead",
@@ -351,6 +351,7 @@
         "Burnt Wire",
         "Cinder Choir",
         "Coal Veil",
+        "Copper Teeth",
         "Dead Relay",
         "Fallout",
         "Fallout Lead",
@@ -359,6 +360,7 @@
         "Gravel Choir",
         "Iron Bellows",
         "Iron Reels",
+        "Lost Procession",
         "Low Pressure",
         "Mourning Brass",
         "Oxide Strings",
@@ -371,8 +373,20 @@
         "Shellac Orchestra",
         "Steel Lead",
         "Steel Swarm",
+        "Throat Shards",
+        "Underpass Strings",
         "Valve Riot",
         "Vulture"
+      ],
+      "deltas": [
+        {
+          "from_version": "0.7.0",
+          "bytes": 17540199,
+          "uncompressed_bytes": 481335822,
+          "changed_bytes": 17735399,
+          "sha256": "b02b28cdb00f98b4826c35ede3f78ca82edd0ba89aea3d317ec63e282e27eb26",
+          "url": "https://drive.usercontent.google.com/download?id=1eGHJ3oLuVuPR4bmja9RLTmVaUaocIpV4&export=download&confirm=t"
+        }
       ]
     }
   ],
